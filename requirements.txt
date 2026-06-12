@@ -1,0 +1,8 @@
+numpy
+torch
+tensorflow
+transformers
+datasets
+evaluate
+scikit-learn
+tqdm

@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Dataset Files (Instructions are included, do NOT upload raw data)
+data/*
+!data/setup_data.txt
+
+# Model Checkpoints (Do NOT upload large weights)
+cnn_classifier/models/
+cnn_classifier/checkpoints/
+bert_transformer/models/
+bert_transformer/checkpoints/
+
+# System & Notebook caches
+.DS_Store
+.ipynb_checkpoints

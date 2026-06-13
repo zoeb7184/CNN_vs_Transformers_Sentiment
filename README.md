@@ -61,16 +61,21 @@ Task-specific fine-tuning of BERT on SST-2.
 ## 📂 Repository Structure
 
 ```text
-Project/
+Sentiment-Analysis-SST2/
 │
+├── bert_transformer/
+│   ├── 2_BERT_Off_The_Shelf.ipynb
+│   └── 3_BERT_Fine_Tuned.ipynb
+│
+├── cnn_classifier/
+│   └── 1_CNN_Baseline.ipynb
+│
+├── docs/
+│   └── Zoeb_Ali_Khan_Report.pdf
+│
+├── .gitignore
 ├── README.md
-├── requirements.txt
-├── Report.pdf
-│
-└── Code/
-    ├── 1_CNN_Baseline.ipynb
-    ├── 2_BERT_Off_The_Shelf.ipynb
-    └── 3_BERT_Fine_Tuned.ipynb
+└── requirements.txt
 ```
 
 ---
@@ -223,7 +228,7 @@ A detailed discussion of:
 can be found in:
 
 ```text
-Report.pdf
+docs/Zoeb Ali Khan - Report.pdf
 ```
 
 ---
